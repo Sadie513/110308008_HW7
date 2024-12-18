@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex; 
+    width: 900px; 
+    height: 1150px;
+    background-color: #ffffff;
+    overflow: hidden; 
+}
+
+.left-panel {
+    width: 330px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-panel {
+    height: 50%; 
+    background-image: url('https://shopee.tw/blog/wp-content/uploads/2019/11/%E5%B9%BC%E8%B2%93%E9%A0%98%E9%A4%8A-1.jpeg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.text-content {
+    padding: 30px;
+    background-color: #2b2b2b; 
+    color: #ffffff; 
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%; 
+}
+
+.text-content h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.text-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.text-content .contact {
+    margin-top: auto; 
+}
+
+.text-content .contact p {
+    margin: 0;
+}
+
+.text-content .contact a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.text-content .contact img {
+    display: block;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.right-panel {
+    width: 540px; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+}
+
+.main-content h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.main-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-content ul li {
+    margin-bottom: 10px;
+}
+
+.main-content ul li a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.music {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+.music-item {
+    text-align: center; 
+    width: 150px; 
+}
+
+.music img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.music p {
+    margin: 10px 0 0; 
+    font-size: 14px; 
+    color: #333; 
+}
+
+.note {
+    margin-block: 20px; 
+    text-align: center; 
+    font-size: 12px; 
+    color: #666; 
+    line-height: 1.6;
+}
+
+.timeline {
+    margin: 20px 0; 
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+
+
+#name-input {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px 0;
+    width: 80%;
+    display: none;
+    text-align: center;
+}
+
+.text-content {
+    position: relative; 
+}
+
+#edit-btn {
+    position: absolute; 
+    right: 0; 
+    bottom: 0; 
+    transform: translate(50%, 50%); 
+    font-size: 10px; 
+    padding: 2px 5px; 
+    background-color: #00bfff; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 3px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+#edit-btn:hover {
+    background-color: #007bbf;
+}
+
+#name-display {
+    display: inline-block; 
+    position: relative; 
+    margin-right: 20px; 
+    font-size: 24px; 
+}
+
